@@ -1,0 +1,18 @@
+[
+  {
+    "occurrence_time": "2023-10-01T10:15:00",
+    "event_name": "System Startup",
+    "id": "E001",
+    "severity": "Info",
+    "latitude": 35.1234,
+    "longitude": -117.2437
+  },
+  {
+    "occurrence_time": "2023-10-01T10:35:00",
+    "event_name": "Navigation Calibration",
+    "id": "E002",
+    "severity": "Info",
+    "latitude": 37.3245,
+    "longitude": -115.2437
+  }
+]

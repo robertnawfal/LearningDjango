@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+class Event(models.Model):
+    occurrence_time = models.DateTimeField()
+    event_name = models.CharField(max_length=255)
+    event_id = models.IntegerField(unique=True)
+    severity = models.CharField(max_length=50)
+
